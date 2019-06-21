@@ -18,6 +18,41 @@
     font-family: "Touche Semibold";
  }
 
+ /*------ the main section of project process steps --------*/
+#project-process{
+    padding:auto; 
+    margin-bottom: 5%;
+}
+
+#project-process div{
+    margin-top: 5%;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.project-images{
+    width: 5em;
+    height: 5em;
+}
+
+
+#project-process p:first-of-type{
+    margin-top: 8%;
+    font-family: "Touche Bold";
+}
+
+#project-process p{
+    font-family: "Touche Light";
+    font-size: 14px;
+}
+
+
+/* @media screen and (max-width: 768px){
+    #project-process{
+        margin-top: 83%;
+    } 
+} */
+
 /* the container of all client says section content */
 #client-says{
     background: url("images/testimonials.jpg");
@@ -156,4 +191,8 @@
     .right-div{
         display: none;
     }
+
+    /* #project-process{
+        margin-top: 83%;
+    }  */
 }
