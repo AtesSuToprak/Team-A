@@ -18,6 +18,102 @@
     font-family: "Touche Semibold";
  }
 
+ /*------ the main section of careers --------*/
+#careers-section {
+    background-size: 100%;
+    height: 100vh;
+ }
+
+ /* container div contians three part: paragraph, form, video*/
+ #container{
+    background:url('images/img11.jpg') no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+ }
+
+ /* the first part which contains title, head and paragraph */
+ #careers-first-part{
+     width: 27%;
+     margin-left: 8%;
+
+ }
+
+ #careers-first-part span{
+     border: 1px #F77B11 solid;
+     font-family: "Touche Bold";
+     color: #F77B11;
+     padding: 3px 6px;
+ 
+ }
+
+ #careers-first-part p:first-of-type{
+    margin-top: 5%;
+    font-family: "Touche Bold";
+    font-size: 150%;
+ }
+
+ #careers-first-part p{
+    font-family: "Touche Light";
+    margin-top: 10%;
+    font-size: 14px;
+ }
+
+ /* the second part which contains form */
+ #careers-section #careers-second-part{
+    width: 250px;
+    height: 40%;
+    margin-right: 12%;
+    line-height: 2;
+    height: 30%;
+    padding: 25px; 
+    background: white;
+    border-radius: 2%;
+    font-family: "Touche Semibold";
+    color: #444444;
+    -webkit-box-shadow: 3px 5px 28px -2px rgba(153,147,153,1);
+    -moz-box-shadow: 3px 5px 28px -2px rgba(153,147,153,1);
+    box-shadow: 3px 5px 28px -2px rgba(153,147,153,1);
+ }
+
+ #careers-section #careers-second-part h5{
+     margin-bottom: 10%;
+ }
+
+ #careers-section #careers-second-part input{
+    width: 100%;
+    border: 1px rgb(185, 185, 185) solid;
+    border-radius: 2px;
+    height: 30px;
+    margin-bottom: 5%;
+}
+
+#careers-section #careers-second-part button{
+    width: 100%;
+    margin-top: 10%
+}
+
+/* the third part which contains video link and image */
+#careers-section #container #careers-third-part{   
+    margin-right: 20%; 
+    background-color: #F77B11;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+#careers-section #container #careers-third-part a{
+    border-radius: 50%;
+}
+
+#careers-section #container #careers-third-part a img{
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 3%;
+}
+
  /*------ the main section of project process steps --------*/
 #project-process{
     padding:auto; 
@@ -131,6 +227,25 @@
 
 /* tables size */
 @media screen and (min-width: 675px) and (max-width:1100px){
+    #careers-section{       
+        background-size: 100%;
+        height: 100vh;
+    }
+
+    #container{
+        background:url('images/img11.jpg') no-repeat;
+        background-size: 140% 100%; 
+    }
+
+    #careers-section #careers-first-part{
+        width: 25%;
+    }
+
+    #careers-section #careers-second-part{
+        width: 27%;
+        margin-right: 6%;   
+    }
+    
     #says-div-container{
         position: relative;
     }
@@ -164,6 +279,42 @@
 
 /* Mobile phone */
 @media screen and (max-width: 675px){
+    #careers-section{
+        background-size: 100%;
+        height: 100vh;
+    }
+
+    #container{
+        background:url('images/img11.jpg') no-repeat;
+        background-size: 160% 100%;
+        
+        display:flex;
+        flex-direction: column;
+    }
+
+    #careers-section #careers-first-part{
+        width: 100%;
+    }
+
+    #careers-section #careers-first-part p:last-child{
+        padding-right: 10%;
+    }
+
+    #careers-section #careers-second-part{
+        width: auto;
+        margin: 5%;
+        border-radius: 1%;
+        
+    }
+
+    #careers-section #careers-third-part{
+        margin-bottom: 10%;
+        align-self: center;
+        margin-left: 16%; 
+        margin-top: 10%; 
+        
+    }
+    
     #says-div-container{
         padding: 10%;
     }
@@ -185,7 +336,7 @@
         display: none;
     }
 
-    /* #project-process{
+    #project-process{
         margin-top: 83%;
-    }  */
+    }
 }
