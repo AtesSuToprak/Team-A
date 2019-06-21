@@ -1,0 +1,267 @@
+/** Top navbar css**/
+@font-face {
+    src: url(fonts/Touche\ W03\ Bold.ttf);
+    font-family: "Touche";
+ }
+ @font-face {
+    src: url(fonts/Touche\ W03\ Bold.ttf);
+    font-family: "Touche Bold";
+ }      /** This is for the headlines which are a little bit thickker **/
+ 
+ @font-face {
+    src: url(fonts/Touche\ W03\ Regular.ttf);
+    font-family: "Touche Regular";
+ }
+ /** This font is for the normal texts and please add " font-weight =600; **/
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav0{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    
+}
+.social{
+    display: flex;
+    align-items: center; 
+    margin-right: 20%; 
+
+}
+.social a{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    
+    
+}
+.social img{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    
+}
+nav ul li a{
+    text-decoration: none !important;
+    color: black;
+    font-size: 13px;
+    font-weight: 500; 
+
+}
+li{
+    padding: 10px;
+    margin-left: 5px;
+
+}
+.nav0 li:hover{
+    background: rgba(228, 225, 228, 0.798);
+    cursor: pointer;
+    
+}
+img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.dropdown-item{
+    border-top: 0.5px grey solid;
+}
+
+
+/** Top navbar css**/
+
+/** bootstrap class changes**/
+.btn {
+    background: rgb(254,150,2);
+    color: white;
+    border: rgb(254,150,2);
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: black !important;
+}
+.nav-link:hover{
+    color: rgb(254,150,2) !important;
+}
+.navbar{
+    padding: 0px;
+}
+
+/** bootstrap class changes**/
+
+#headersection {
+   background:url('images/img1.jpg') no-repeat;
+   background-size: cover;
+   height: 100vh;
+   background-image: cross-fade(0.5);
+}
+h1 {
+    margin: 0 auto;
+    width:25%;
+    border-bottom: 2px solid rgba(86, 91, 92,0.435);
+    padding-bottom: 15px;
+    text-align:center;
+}
+
+
+div.image-container{
+    border:1px solid grey;
+}
+
+
+
+div.image-container:hover {
+    border: 2px solid rgb(41, 37, 37);
+    box-shadow: 0 0 30px rgb(134, 154, 182);
+}
+
+div.image-container img {
+    width:100%;
+    height:auto;
+}
+div.description {
+    padding:15px;
+    text-align: center;
+}
+
+*{
+    box-sizing:border-box;
+    -webkit-box-sizin:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.responsive {
+    width: 30%;
+    margin: 1.66%;
+    float:left;
+} 
+/** Gado part **/ 
+.responsive-gado {
+    margin: 1%;  
+      
+}
+.img-gado {
+    width:100%;
+    height:auto;
+  }
+.Description-gado h3 {
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+}
+.Description-gado h4 {
+    font-size: 15px ;
+    color: gray;
+    text-align: left;
+}
+#h1-gado {
+    text-align: center;
+    font-weight: bolder !important;
+    font-size: 30px !important;
+    width:40% !important;
+    border-bottom: 0px solid rgba(86, 91, 92) !important;
+    padding-bottom: 15px !important;
+    padding-top: 10px !important;
+    font-family: "Touche Bold";
+ 
+}
+.button-gado {
+    text-align: center;
+    color: white;
+    background-color: rgb(254,150,2) ;
+    font-size: 16px;
+    border: rgb(254,150,2);
+    padding: 10px 40px ;
+    margin-top: 30px;
+    border-radius: 4px;
+    margin-bottom: 80px;
+}
+.Completed-gado {
+    color: rgb(254,150,2);
+    width: 175px;
+    height: 30px;
+    border: 1px solid rgb(254,150,2);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.main-gado{
+    text-align: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-image: url("images/img12.jpg");
+    width: 100%;
+    font-family: "Touche Regular";
+    font-weight: 600;
+}
+h3 {
+    font-family: "Touche Bold";
+    margin-top: 10px;
+}
+h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 12px;
+}
+@media only screen and (max-width: 576px) {
+    
+    .button-gado {
+       font-size: 10px;
+       padding: 1em 2.6em ;
+      
+    }
+    .Completed-gado {
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+    }
+    #h1-gado {
+       font-weight: bolder !important;
+        font-size: 1.1em !important;
+        margin: 0 auto;
+       
+    }  
+    .main-gado{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }  
+       
+}
+@media only screen and (max-width: 1199px) and (min-width: 576px) {
+    
+    .button-gado {
+       font-size: 15px;
+       padding: 1em 2.6em ;
+      
+    }
+    .Completed-gado {
+        font-size: 12px;
+        width: 130px;
+        height: 25px;
+    }
+    #h1-gado {
+       font-weight: bolder !important;
+        font-size: 1.4em !important;
+        margin: 0 auto;
+       
+    }  
+    .main-gado{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    }
