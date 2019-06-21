@@ -35,7 +35,6 @@
     height: 5em;
 }
 
-
 #project-process p:first-of-type{
     margin-top: 8%;
     font-family: "Touche Bold";
@@ -46,12 +45,6 @@
     font-size: 14px;
 }
 
-
-/* @media screen and (max-width: 768px){
-    #project-process{
-        margin-top: 83%;
-    } 
-} */
 
 /* the container of all client says section content */
 #client-says{
