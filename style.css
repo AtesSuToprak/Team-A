@@ -1,0 +1,101 @@
+/** Top navbar css**/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav0{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    
+}
+.social{
+    display: flex;
+    align-items: center; 
+    margin-right: 20%; 
+
+}
+.social a{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    
+    
+}
+.social img{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    
+}
+nav ul li a{
+    text-decoration: none !important;
+    color: black;
+    font-size: 13px;
+    font-weight: 500; 
+
+}
+li{
+    padding: 10px;
+    margin-left: 5px;
+
+}
+.nav0 li:hover{
+    background: rgba(228, 225, 228, 0.798);
+    cursor: pointer;
+    
+}
+img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.dropdown-item{
+    border-top: 0.5px grey solid;
+}
+
+
+/** Top navbar css**/
+
+/** bootstrap class changes**/
+.btn {
+    background: #F87C09;
+    color: white;
+    border: #F87C09;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: black !important;
+}
+.nav-link:hover{
+    color: #F87C09 !important;
+}
+.navbar{
+    padding: 0px;
+}
+
+/** bootstrap class changes**/
+
+#headersection {
+   background:url('images/img1.jpg') no-repeat;
+   background-size: cover;
+   height: 100vh;
+   background-image: cross-fade(0.5);
+}
+
+@media only screen and (max-width: 1200px) {
+    nav.arifnavbar button {
+        display: none;
+    }
+}

@@ -1,0 +1,587 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+@font-face {
+    src: url(fonts/Touche\ W03\ Bold.ttf);
+    font-family: "Touche Bold";
+}
+@font-face {
+    src: url(fonts/Touche\ W03\ Light.ttf);
+    font-family: "Touche Light";
+}
+
+@font-face {
+    src: url(fonts/Touche\ W03\ Regular.ttf);
+    font-family: "Touche Regular";
+}
+
+@font-face {
+    src: url(fonts/Touche\ W03\ Semibold.ttf);
+    font-family: "Touche Semibold";
+}
+
+
+.main-div2 {
+    margin:0 auto;
+    width:90%;
+    height:auto;
+    margin-bottom: 10%;
+}
+
+.header-div {
+    border: 2px hidden;
+    margin:0 auto;
+    text-align: center;
+    width:42%;
+    margin-top:60px;
+    margin-bottom:60px;
+    
+}
+div.header-div .text-1 {
+    color:rgb(122,122,122);
+}
+
+.what-we-do {
+    margin-bottom: 20px;
+    font-family: "Touche Bold";
+    
+    
+}
+
+.text-1{
+    font-family: "Touche Regular";
+    font-weight:600;
+}
+#p-service {
+    margin:20px auto;
+    color: rgb(253,155,12); 
+    border: 2px solid rgb(253,155,12); 
+    border-radius: 3px;
+    padding: 4px 3px;
+    width:100px;
+    font-family: "Touche Regular";
+    font-weight:600;
+    
+}
+
+.phone-image {
+   
+     margin:auto;
+    
+}
+.device{
+    width:100%;
+    height:auto;
+}
+div.clearfix p.text-info{
+    color: #9A9A9A !important;
+}
+.p-left-info {
+    text-align: right;
+
+}
+
+.info-left {
+    padding-top:80px;
+    
+}
+.info-right {
+    padding-top:80px;
+    
+}
+.clearfix {
+    overflow:auto;
+}
+.icon-1 {
+    float:right;
+    right:0;
+    width:110px;
+    height: 110px;
+    padding-left:30px;
+}
+
+.icon-2 {
+    float:right;
+    right:0;
+    width:110px;
+    height: 110px;
+    padding-left:30px;
+}
+.icon-3 {
+    float:right;
+    right:0;
+    width:110px;
+    height: 110px;
+    padding-left:30px;
+}
+.icon-4 {
+    float:left;
+    left:30px;
+    width:110px;
+    height: 110px;
+    padding-right:30px;
+}
+.icon-5 {
+    float:left;
+    left:30px;
+    width:110px;
+    height: 110px;
+    padding-right:30px;
+}
+.icon-6 {
+    float:left;
+    left:30px;
+    width:110px;
+    height: 110px;
+    padding-right:30px;
+}
+
+.clearfix{
+    overflow:auto;
+    width:100%;
+    margin-bottom:60px;
+}
+
+.font-headline {
+    font-family: "Touche Bold";
+    font-size: 17px;
+    
+}
+
+.font-text {
+    font-family: "Touche Regular";
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 575px){
+    div.phone-image.col-sm-3{
+        display:none;
+    }
+    div.row {
+        justify-content:center;
+    }
+}
+/*ATTENTION PLEASE! Below this warning, Hakan's 2nd page starts!!*/
+/* /////// DELETE THE BORDERS UNNECESSARY !!! //////*/
+.background-image{
+    background-image: url(images/priceTable.png);
+    width: 100%;
+    height: 85%;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.outside-div-1 {
+    /*border: 1px black solid;*/
+    
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    padding: 60px;
+    display:flex;
+    justify-content:center;
+}
+
+/* FIRST COLUMN DOWN BELOW */
+.attached-columns-1 {
+    /*border: 1px black solid;*/
+    width:40%;
+    padding: 40px;
+    padding-top:17px;
+    padding-right:100px;
+
+}
+
+div.attached-columns-1 h4 {
+    font-family: "Touche Bold";
+    font-size: 28px;
+    color:rgb(51,51,51);
+    line-height: 35px;
+}
+.span-best {
+    background-color: rgb(252,147,49);
+    padding:0,5px 0;
+    color:white;
+    font-family: "Touche Semibold";
+}
+.content-1 {
+    color:rgb(85,85,85);
+    font-family: "Touche Regular";
+    padding-top: 20px;
+    width: 100%;
+   
+}
+div.content-1 p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-bottom: 20px;
+
+}
+.footer-1{
+    width: 300px;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 5%;
+    padding-left: 0px;
+    
+}
+
+.switch-div{
+    width:auto;
+    height: auto;
+    margin-right: 17%;
+    margin-left: 30px;
+    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 27.5px;
+  }
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: -2px;
+    bottom: -1px;
+    background-color: rgb(254,150,2);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    top: 2px;
+    left: 2px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked + .slider {
+    background-color: rgb(35, 211, 0);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px rgb(254,150,2);
+    
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    box-shadow:-2px 0 2px rgb(24, 143, 0);
+}
+.slider.round {
+    border-radius: 4px;
+}
+
+.slider.round:before {
+    border-radius: 3px;
+    box-shadow:2px 0 2px rgb(211, 123, 0);
+}
+
+
+.pricing-table {
+    border: 1.2px solid rgb(254,150,2);
+    border-radius: 2px;
+    width: 120px;
+    text-align: center;
+    color:rgb(254,150,2);
+    font-family: "Touche Semibold";
+    font-size: 12px;
+    padding: 3px ; 
+}
+.p-monthly{
+    color:rgb(51,51,51);
+    font-family: "Touche Semibold";
+}
+.p-yearly {
+    color:#AAAAAA;
+    font-family: "Touche Semibold";
+    
+}
+/* Arrow */
+.arrow-text{
+    
+    text-align: center;
+    font-size: 10px;
+    font-family: "Arial";
+    font-weight: bold;
+    color:rgb(254,150,2);
+    position:relative;
+    top:-25px;
+    left: 10px;
+}
+div.arrow-text p {
+    margin-bottom: 8px;
+}
+.arrow {
+  position: relative;
+  top: -65px;
+  left: -35px;
+  margin: 0 auto;
+  width: 100px;
+  transform:scale(-1,1) rotate(290deg); 
+  
+}
+
+.arrow .curve {
+	border: 0.5px solid #BE5F4B;
+	border-color: transparent transparent transparent rgb(254,150,2);
+	height: 55px;
+	width: 35px;
+	border-radius: 230px 0 0 150px;
+}
+
+.arrow .point {
+	position: absolute;
+	left: 6px;
+	top: 44px;
+}
+
+.arrow .point:before, .arrow .point:after {
+	border: 0.5px solid rgb(254,150,2);
+	height: 6px;
+	content: "";
+	position: absolute;
+}
+
+.arrow .point:before {
+	top: 1px;
+	left: -3px;
+	transform:rotate(-74deg);
+	-webkit-transform:rotate(-74deg);
+  -moz-transform:rotate(-74deg);
+  -ms-transform: rotate(-74deg);
+  background-color:rgb(254,150,2);
+}
+
+.arrow .point:after {
+  top: -2px;
+	left: 1px;
+	transform:rotate(12deg);
+	-webkit-transform: rotate(12deg);
+  -moz-transform:rotate(12deg);
+  -ms-transform: rotate(12deg);
+  background-color:rgb(254,150,2);
+}
+
+
+
+/* SECOND COLUMN DOWN BELOW */
+.attached-columns-2 {
+    border-radius: 2px;
+    width: 30%;
+    padding:15px 0;
+    margin-left: 6%;
+    
+}
+
+.img-headline-2 {
+    width:60px;
+    height:60px;
+}
+div.headline-2 h5 {
+    font-family: "Touche Bold";
+    color: #555555;
+}
+.content-2 {
+    border: 1px solid #DEE2E6;
+    border-radius: 3px;
+    height: auto;
+    padding:20px;
+    background: white;
+}
+
+.footer-2 {
+    border: 1px solid  rgb(254,150,2);
+    text-align: center;
+    background-color: rgb(254,150,2);
+    color: white;
+    font-family: "Touche Regular";
+    font-weight: 600;
+    border-radius: 4px;
+    
+ 
+}
+#get-started {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    
+}
+.line-through {
+    color:rgb(191,191,191);
+}
+div.list-2 i {
+
+
+}
+.dolar-sign {
+    font-size: 25px;
+    font-family: "Arial";
+    padding: 5px;
+    margin-top: 12px;
+ }
+ .money-size {
+    font-size: 60px;
+    font-family: "Touche Regular" ;
+    font-weight: 600;
+    display: flex;
+ }
+ 
+ #font-for-p {
+     font-family: "Touche Regular";
+     font-weight: 600;
+     padding-bottom: 30px;
+     margin-top: -30px;
+     color: rgb(170,170,170);
+ }
+ #most-popular {
+     color: rgb(170,170,170);
+ }
+ div.list-2 p {
+     font-family: "Touche Regular";
+     font-size: 13px;
+     color:rgb(87,87,87);
+ }
+ 
+
+/* THIRD COLUMN DOWN BELOW */
+.attached-columns-3 {
+    
+    border-radius: 2px;
+    width: 30%;
+    padding:45px 0;  
+
+}
+
+.img-headline-3 {
+    width:70px;
+    height:70px;
+}
+
+.content-3 {
+    border: 1px solid #DEE2E6;
+    border-left: 0;
+    border-radius: 3px;
+    height: auto;
+    padding: 20px;
+    background: white;   
+}
+.footer-3 {
+    border: 1px  solid #DEE2E6;
+    text-align:center;
+    font-family: "Touche Regular";
+    font-weight: 600;
+    border-radius: 4px;
+    
+}
+#get-started-3 {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(52,58,64);
+    font-size: 14px;
+}
+div.headline-3 h5 {
+    font-family: "Touche Bold";
+    color: #555555;
+}
+
+div.list-3 p {
+    font-family: "Touche Regular";
+    font-size: 13px;
+    color:rgb(87,87,87);
+}
+div.list-3 p strong {
+    font-family: "Touche Bold";
+    letter-spacing: -0.5px;
+    
+}
+
+@media only screen and (max-width:1199px) and (min-width:576px) {
+    div.outside-div-1{
+        width: 80%;
+    }
+    div.attached-columns-1 { 
+        margin-left: 0;
+        
+    }
+    div.attached-columns-2{
+        margin-left: 0;
+    }
+    div.content-2 {
+        width: 100%;
+    }
+    div.content-3 {
+        width: 100%;
+    }
+    div.headline-1 h4 span.span-best {
+        color:rgb(51,51,51);
+        background:0;
+        font-family: "Touche Bold";
+    }
+    div.content-1{
+        width: 137%;
+        
+        
+    }
+    div.footer-1 p.p-yearly {
+        position:relative;
+        top:35px;
+        left: -201px;
+    }
+    div.footer-1 div.arrow-text {
+        position:relative;
+        left: -85px;
+        
+    }
+    
+    
+}
+
+@media only screen and (max-width: 575px) {
+    div.outside-div-1{
+      display: block;
+      margin:0;
+      padding-left: 0;
+    }
+    div.attached-columns-1 {
+       width: 100%;
+    }
+    div.attached-columns-2 {
+       width: 100%;
+    }
+    div.attached-columns-3 {
+        width:100%;
+        margin-left: 25px;
+    }
+    div.content-3 {
+        border-left: 1px solid #DEE2E6;
+        border-radius: 3px;
+    }
+
+}
+
+ 
