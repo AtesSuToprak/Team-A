@@ -223,15 +223,18 @@ h4 {
        padding: 1em 2.6em ;
       
     }
-    .Completed-gado {
-        font-size: 10px;
-        width: 100px;
-        height: 20px;
+   .Completed-gado {
+        font-size: 10px !important;
+        width: 135px;
+        height: 24px;
+        padding-top: 2px;
+        
     }
     #h1-gado {
        font-weight: bolder !important;
-        font-size: 1.1em !important;
+        font-size: 0.9em !important;
         margin: 0 auto;
+        
        
     }  
     .main-gado{
@@ -255,7 +258,7 @@ h4 {
     }
     #h1-gado {
        font-weight: bolder !important;
-        font-size: 1.4em !important;
+        font-size: 1.3em !important;
         margin: 0 auto;
        
     }  
