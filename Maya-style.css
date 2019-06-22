@@ -43,9 +43,9 @@
  }
 
  #careers-first-part span{
-     border: 1px #F77B11 solid;
+     border: 1px rgb(254,150,2) solid;
      font-family: "Touche Bold";
-     color: #F77B11;
+     color: rgb(254,150,2);
      padding: 3px 6px;
  
  }
@@ -103,7 +103,7 @@
 /* the third part which contains video link and image */
 #careers-section #container #careers-third-part{   
     margin-right: 20%; 
-    background-color: #F77B11;
+    background-color: rgb(254,150,2);
     border-radius: 50%;
     padding: 1em;
 }
