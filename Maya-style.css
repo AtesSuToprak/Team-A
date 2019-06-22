@@ -83,6 +83,10 @@
      margin-bottom: 10%;
  }
 
+.user-icon{
+    background: url("images/iconfinder-icon.svg") right no-repeat;
+ }
+
  #careers-section #careers-second-part input{
     width: 100%;
     border: 1px rgb(185, 185, 185) solid;
@@ -335,8 +339,8 @@
     .right-div{
         display: none;
     }
-
-    #project-process{
-        margin-top: 83%;
+    
+    #careers-section{
+       margin-bottom: 45%;
     }
 }
