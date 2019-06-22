@@ -4,27 +4,14 @@
     margin: 0;
     padding: 0;
 }
-@font-face {
-    src: url(fonts/Touche\ W03\ Bold.ttf);
-    font-family: "Touche";
- }
 
 .nav0{
     display: flex;
     align-items: center;
     margin: 0px;
     padding: 0px;
-    z-index: 2;
-
 }
-.arif-ul0{
-    display: flex;
-    list-style: none;
-    margin-left: 30%;
-    margin-bottom: 0px;
-    
-}
-.arif-ul{
+ul{
     display: flex;
     list-style: none;
     margin-left: 20%;
@@ -57,307 +44,58 @@ nav ul li a{
     font-weight: 500; 
 
 }
-.arif-ul0 li{
-    margin: 20px 0 20px 0;
-    padding: 5px;
-    margin-left: 25px;
+li{
+    padding: 10px;
+    margin-left: 5px;
 
 }
-.arif-ul li{
-    padding: 15px 0 15px 0;
-    margin-left: 15px;
-
-}
-
 .nav0 li:hover{
     background: rgba(228, 225, 228, 0.798);
     cursor: pointer;
     
 }
-.dropdown img{
-    height: 18px;
-    width: 18px;
+img{
+    height: 20px;
+    width: 20px;
     
 }
 
-.arif-drop .dropdown-item{
-    padding-left: 2px;
-    border: 0.5px rgb(243, 237, 237) solid;
+.dropdown-item{
+    border-top: 0.5px grey solid;
 }
-.navengarif {
-    padding-left: 0px !important;
-}
-
-
 
 
 /** Top navbar css**/
 
-/** second navbar css**/
-.TEAM-A{
-    height: 60px;
-    width: 150px;
-    border: #F87C09 solid 3px;
-    background:#F87C09;
-    text-align: center;
-}
-div.TEAM-A p{
-    padding-top: 9px; 
-    color: white;
-    font-size: 24px;
-    font-weight: 800;
-
-}
-.arifbtn {
+/** bootstrap class changes**/
+.btn {
     background: #F87C09;
     color: white;
     border: #F87C09;
 }
-.arifnav-link{
+.nav-link{
     font-size: 16px;
     font-weight: 700 !important;
     color: black !important;
 }
-.arifnav-link:hover{
+.nav-link:hover{
     color: #F87C09 !important;
 }
-.arifnavbar{
+.navbar{
     padding: 0px;
-    z-index: 1;
-    position: sticky;
-    top: 0;
 }
 
-.arifnav-link img{
-    height: 20px;
-    width: 20px;
-    margin-top: 10px;
-}
+/** bootstrap class changes**/
 
 #headersection {
    background:url('images/img1.jpg') no-repeat;
    background-size: cover;
-   height: 140vh;
-   margin-top: -300px; 
-}
-.container-arif{
-    height: 500px;
-    width: 500px;
-    margin-left: 50px;
-    padding-top: 330px;
-    padding-left: 30px;
-     
-}
-.seo-box{
-    height: 30px;
-    width: 80px;
-    border: #F87C09 solid 1px;
-    color: #F87C09;
-    background: white;
-    margin-bottom: 20px;
-    text-align: center;
-}
-div.seo-box p{
-    padding-top:3px; 
-    color: #F87C09;
-    font-size: 14px;
-    font-weight: 500;
-
-}
-.container-arif h1{
-    font-size: 50px;
-    font-weight: bolder;
-    color: rgb(68, 66, 66);
-    margin-bottom:25px; 
-}
-.container-arif h4{
-    font-size: 20px;
-    font-weight: bolder;
-    color: rgb(177, 169, 169);
-    margin-bottom: 25px;
-}
-.container-arif p{
-    font-size: 16px;
-    
-    color: rgb(156, 147, 147);
-    margin-bottom: 40px;
+   height: 100vh;
+   background-image: cross-fade(0.5);
 }
 
-.arifbtn2 {
-    background: #F87C09;
-    color: white;
-    border: #F87C09;
-    margin-left: 10px;
-}
-.arifbtn3 {
-    background: white;
-    color:rgb(92, 88, 88);
-    border: 1px solid rgb(197, 193, 193);
-    margin-left: 15px;
-}
-
-/** advert(logo) section**/
-
-.imaj img{
-    margin: 25px 25px;
-    height: 120px;
-    width: 120px;
-}
-#advert{
-    border-bottom: 1px solid gainsboro;
-     
-}
-
-/** advert(logo) section**/
-
-@media only screen and (max-width: 992px){
-   nav.arifnavbar div ul.arif-ul li.nav-item a.arifnav-link button.arifbtn{
+@media only screen and (max-width: 1200px) {
+    nav.arifnavbar button {
         display: none;
     }
-    #advert .linkedin{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    nav div.social{
-         display: none;
-     }
-     #advert .amazon{
-        display: none;
-    }
-    #advert .nat-geo{
-        display: none;
-    }
-    footer div.footnav{
-        display: none;
-    }
-     
- }
- @media only screen and (max-width: 576px){
-    
-     #advert .amazon{
-        display: none;
-    }
-    #advert .nat-geo{
-        display: none;
-    }
- }
-
-/** last page section**/
-
- .container-lastpage{
-    height: 60vh;
-    width: 100%;
-    padding-top: 100px; 
-    text-align: center;
-     
-}
-
-
-
-.container-lastpage h1{
-    font-size: 30px;
-    font-weight: 700;
-    color:black;
-    margin-bottom:25px;
-}
-.container-lastpage h4{
-    font-size: 15px;
-    font-weight: 700;
-    color: rgb(83, 79, 79);
-    margin-bottom: 10px;
-}
-
-.container-sitemap{
-    height: 58%;
-    width: 100%;   
-     
-}
-.container-sitemap h4{
- font-size: 15px;
- font-weight: 700;
- color: rgb(83, 79, 79);
-  margin-bottom: 10px;
-}
-.logo{
-    height: 30px;
-    width: 75px;
-    border: rgb(133, 109, 87) solid 3px;
-    background:rgb(133, 109, 87);
-    text-align: center;
-}
-div.logo p{
-     
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-
-}
-.emptyy{
-    border-bottom: 0.5px solid rgb(185, 178, 178);
-    margin-bottom: 25px;
-    
-}
-div.container-sitemap div.container div.row.d-flex div.col-md-3 ul li {
-    list-style: none;
-    list-style-image: url(images/arrow1.png);
-    margin: 5px;
-
-}
-.arifbtn4 {
-    height: 100%;
-    background: #F87C09;
-    color: white;
-    border: #F87C09;
-    
-}
-.plane{
-    background: white;
-    height: 100%;
-    width: 40px;
-    border: 1px solid gray;
-    padding: 8px;
-}
-.subscribe{
-    height: 40px;
-    float: left;
-}
-
-.paragraf{
-    
-    font-size: 14px;
-}
-/** last page section**/
-
-/** footer section**/
-
-.footerlink{
-    text-decoration: none;
-    color: rgb(87, 83, 83);
-    border-bottom: 1px dotted black;
-    margin:5px;
-}
-
-.footerlink:hover{
-    color: gray;
-    text-decoration: none;
-}
-.foot{
-    padding: 40px 40px 40px 180px;
-    width: 100%;
-    margin: 0px;
-    
-}
-footer{
-    background: rgb(238, 179, 124);
-}
-.footnav{
-    margin-left: 150px;
-}
-
-.leftsection{
-    border-right: 1px solid gray;
-    
-    
 }
